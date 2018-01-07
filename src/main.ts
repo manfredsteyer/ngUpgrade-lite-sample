@@ -28,7 +28,6 @@ const dgSubModule = angular
   .directive('appSub', downgradeComponent({ component: SubComponent, propagateDigest: false }))
   .factory('subService', downgradeInjectable(SubService));
 
-
 const downgraded = angular
   .module('downgraded', [downgradeModule(bootstrapAngular), dgSubModule.name])
   .directive('appRoot', downgradeComponent({ component: AppComponent, propagateDigest: false }));
