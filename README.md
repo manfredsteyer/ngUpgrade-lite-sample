@@ -16,7 +16,7 @@ ng generate downgrade-module legacyApp --collection @nrwl/schematics
 
 Other than the "classic" version, the lite version does not automatically trigger the AngularJS 1.x change detection b/c it turned out that this can lead to hybrid apps with bad performance. Instead of this we have to trigger it by ourselves.
 
-Also, we have to bootstrap AngularJS 1.x first and reference a the downgraded Angular (2+) main module and when downgrading an Angular (2+) component we have to set ``propagateDigest`` to ``false``:
+Also, we have to bootstrap AngularJS 1.x first and to reference the downgraded Angular (2+) main module. Moreover, When downgrading an Angular (2+) component we have to set ``propagateDigest`` to ``false``:
 
 ```typescript
 const dgSubModule = angular
