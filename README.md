@@ -1,5 +1,4 @@
-# AngularJS 1.x + Angular (2+) Hybrid
-# PoC for ngUpgrade Lite
+# AngularJS 1.x + Angular (2+) Hybrid using ngUpgrade Lite
 
 Boilerplate was generated with [Nx](https://nrwl.io/nx) as an AngularJS Downgrade Module:
 
