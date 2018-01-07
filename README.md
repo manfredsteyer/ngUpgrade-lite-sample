@@ -1,6 +1,6 @@
 # AngularJS 1.x + Angular (2+) Hybrid using ngUpgrade Lite
 
-Boilerplate was generated with [Nx](https://nrwl.io/nx) as an AngularJS Downgrade Module:
+The boilerplate for using ngUpgrade Lite can be generated with [Nx](https://nrwl.io/nx) as an so called AngularJS Downgrade Module. For this, I've created a new Angular Project with the CLI using ``ng new ...`` and after switching to its folder I've used the following commands:
 
 ```
 npm i @types/angular --save-dev
